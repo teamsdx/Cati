@@ -55,10 +55,13 @@ img {
   /* fonts */
   --title-font-size: 1.875rem;
   --subtitle-font-size: 1rem;
-  --credit-font-size: 1rem;
+  --credit-font-size: 0.75rem;
 
-  --title-font: "Poppins", sans-serif;
+  /* --title-font: "Poppins", sans-serif; */
+  --title-font: "Raleway", sans-serif;
   --body-font: "DM Sans", sans-serif;
+  --credit-font:"Poppins", sans-serif;
+  /* --body-font: "Raleway", sans-serif; */
 }
 
 /*===  BASE ============================ */
@@ -74,7 +77,7 @@ body {
 }
 
 .credits {
-  font: 100 var(--credit-font-size);
+  font: 100 var(--credit-font-size) var(--credit-font);
 }
 
 .title {
@@ -503,6 +506,10 @@ footer .logo {
 footer .brand p {
   color: var(--text-color-light);
   margin-bottom: 0.75rem;
+}
+
+footer .brand a {
+  color: var(--text-color-light);
 }
 
 footer i {
