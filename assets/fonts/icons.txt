@@ -1,0 +1,15 @@
+Web Design  - <icon-display
+integration
+	- e995 (icon- , liga: cogs, gears)
+	- e92e (icon- , Liga: stack, layers) ou
+	- e983 (icon- , Liga: spinner10, loading11)
+	- ea2e (icon- , Liga: loop2, repeat2)
+
+BI	- e99a (icon- , Liga: pie-chart, stats)
+Sec	- e98f (icon- , Liga: lock, secure)
+	- e9cb (icon- , Liga: link, chain)
+
+Location:
+	- e947 location, map-marker
+email:
+	- e945 envelop, mail
