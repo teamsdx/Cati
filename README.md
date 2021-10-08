@@ -1,3 +1,3 @@
-# SDx-Solutions in Digital X
+# CATI, Lda
 ## Official website 
-[SDx.pt](https://sdx.pt)
+[cati.pt](https://cati.pt)

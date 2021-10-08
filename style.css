@@ -25,18 +25,29 @@ img {
 
   /* colors */
   /* --hue: 159; */
-  --hue: 220;
+  --hue: 200;
+  /* --hue: 220; */
+
   /* HSL color mode */
   /* --base-color: hsl(var(--hue) 36% 57%); */
-  --base-color: hsl(var(--hue) 70% 27%);
+  /* --base-color: hsl(var(--hue) 70% 27%); */
+  --base-color: hsl(var(--hue) 83% 31%);
+
+  
   --base-color-second: hsl(var(--hue) 22% 68%);
   /* --base-color-second: hsl(var(--hue) 65% 88%); */
   --base-color-alt: hsl(var(--hue) 45% 38%);
   /* --base-color-alt: hsl(var(--hue) 57% 53%); */
   /* --title-color: hsl(var(--hue) 41% 10%); */
-  --title-color: hsl(var(--hue) 70% 27%);
+
+  /* --title-color: hsl(var(--hue) 70% 27%); */
+  --title-color: hsl(var(--hue) 0% 83% 50%);
+  
+
   /* --text-color: hsl(0 0% 46%); */
-  --text-color: hsl(var(--hue) 70% 27%);
+    /* --text-color: hsl(var(--hue) 70% 27%); */
+  --text-color: hsl(var(--hue) 83% 31%);
+
   /* --text-color-light: hsl(0 0% 98%); */
   --text-color-light: hsl(0 0% 95%);
   --body-color: hsl(0 0% 98%);
