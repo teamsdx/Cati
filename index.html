@@ -310,8 +310,10 @@
           src="./images/logo/logotipoCATI.png"
           alt="CATI Logo"
           /> -->
-          <p>©2024 CATI, Lda
-            <span class="credits"> - Powered by <a href="https://sdx.pt"> <b> SDx-Soluções Digitais X</b></a></span>
+          <!-- <p id="ano">©2024 CATI, Lda Comentado em 2025/10/07 --> 
+          <p>&copy; <span id="ano"></span>  CATI, Lda
+            <!-- <span class="credits"> - Powered by <a href="https://sdx.pt"> <b> SDx-Soluções Digitais X</b></a></span> Comentado em 2025/10/07 -->
+            <span class="credits"> - Powered by <b> SDx-Soluções Digitais X</b></span>
           </p>
           <p>Todos os direitos reservados.</p>
         </div>
@@ -340,6 +342,12 @@
 
     <!-- main.js -->
     <script src="main.js"></script>
+
+    <!-- Ano -->
+    <!-- inserido em 2025/10/07 -->
+    <script>
+      document.getElementById("ano").textContent = new Date().getFullYear();
+    </script>
    
   </body>
 </html>
